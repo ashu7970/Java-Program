@@ -9,9 +9,9 @@ public class Prime1
         System.out.print("Enter a number = ");
         int a = s1.nextInt();
 
-        for (int i = 2; i <= a; i++)
+        for (int i = 1; i <= a; i++)
         {
-            if (a % i == 0 && a%++i == 0 )
+            if (a / i == a && a%++i == 0 )
             {
                 System.out.println("the entered number is not a prime number");
                 break;
